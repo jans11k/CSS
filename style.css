@@ -1,0 +1,71 @@
+#titulo  {
+    color: tomato;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+p.texto {
+  color: slateblue;
+}
+
+div p{
+    color:rgb(183, 13, 199); 
+
+}
+
+div h2, div h3 { /* Hola si estas viendo este mensaje Es porque Eres un Highbrot */
+    color: brown; 
+}
+
+*{
+    font-size: 24px; 
+    color: black; /* Hola si estas viendo este mensaje Es porque Eres un Highbrot */
+}
+
+
+/* Hola si estas viendo este mensaje Es porque Eres un Highbrot */
+
+/* 
+
+Hola si estas viendo este mensaje Es porque Eres un Highbrot
+ Vengo estoy escribiendo este mensaje en el  Año 2023 Te dire una cosa Venezuela Volvera hacer de 
+ los paises  mas  rico  del mundo. De nuevo Att Jansbalcazar Programando.
+   
+/*
+.color{ 
+
+    color:#ff0000;
+}
+
+.color{
+
+    color: rgb(0, 255, 255)
+
+}
+*/ 
+
+.color{
+
+    /*  border: 5px red outset; */
+    /* 
+    Dotte
+    Dashed
+    solite
+    double
+
+    Desde Grove Hasta auset Se Agregan Objetos Tridimencionales  
+    groove
+    ridge
+    inset
+    ouset
+
+    none
+    hidden
+    */ 
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+    
+}
