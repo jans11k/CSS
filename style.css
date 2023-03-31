@@ -20,7 +20,7 @@ div h2, div h3 { /* Hola si estas viendo este mensaje Es porque Eres un Highbrot
 
 *{
     font-size: 24px; 
-    color: black; /* Hola si estas viendo este mensaje Es porque Eres un Highbrot */
+    /*color: black; /* Hola si estas viendo este mensaje Es porque Eres un Highbrot */
 }
 
 
@@ -68,4 +68,174 @@ Hola si estas viendo este mensaje Es porque Eres un Highbrot
     border-radius: 5px;
     border-width: 2rem;
     
+}
+
+#fondo {
+
+    background-color: rgba(255,0,0);
+    /* opacity: ; */
+    height: 200px;
+    /*height: 400; */
+    background:#f00 url(coffee.png) repeat-y center bottom/100px 100px ;
+
+    
+    
+    
+
+    /* Si nosotros utilizamos la propiedad  Background Y Definimos Backgrouds Size ANTES de 
+    que la Propiedad de Backgroud esta no la va a tomar en cuenta. si queremos utilizar la 
+    propiedad de Background y Tambien la propiedad de Background Size por separado Vamos a
+    tener que colocarla despues de la propiedad de background  /*
+    
+    /*background-repeat: no-repeat;
+    para que No se repitan Las imagenes 
+    */  
+
+    /*background-size: cover; */
+
+    /*background-size: contain; Lo que hace es que contiene las imagenes 
+    Dentro de las dimenciones especificaciones Que nosotros Le indiquemos  Height:300px 
+    Lo que contega... Por ende va contener las 
+    
+    */
+
+    /*background-repeat: repeat-y; Para se Repita de forma Horizontal  */
+
+    /*background-repeat: repeat-x; Para se Repita de forma Vertical */
+
+     /* Como Agregar Dimensiones Background-size: 400px El Ancho y El Alto 400px */
+}
+
+.margen {
+
+    background-color: chocolate;
+    margin: 15px ;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 200px; 
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.text {
+    font-family: "Roboto", Sans-serif;
+    text-align: justify;
+     text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+
+    color: blueviolet;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover {
+
+    color: yellow;
+}
+
+a:active {
+
+    color:red;
+}
+
+    ul {
+
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+
+    border: solid 1px #eee;
+    padding: 5px;
+    
+}
+
+th{
+
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+
+    background-color: #eee;
+}
+tr:hover {
+
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+span {
+
+     display: block; 
+    /* display: none; */
+    /* visibility: hidden; */
+    max-weight: 300px;
+    background-color: #f00;
+}
+
+.inline {
+
+    display: inline;
+}
+
+#position {
+
+    position: sticky;
+    left: 20px;
+     top: 25px; 
+}
+
+.left {
+
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right {
+
+    float: right;
+}
+
+.container {
+
+    height: 200px;
+}
+
+.column{
+
+   
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3% ;
+}
+
+.inline-block {
+
+    display: inline;
+    height: 55px;
+    background-color: red;
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
 }
